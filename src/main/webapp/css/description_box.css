@@ -1,0 +1,26 @@
+@CHARSET "ISO-8859-1";
+
+span.description {
+    position: absolute;
+    display: none;
+    background: #ccc;
+    border: 1px solid;
+}
+
+span.validate-error {
+	color: red;
+	font-weight: bold;
+}
+
+input.has-error {
+	border-color: red;
+}
+
+span.links {
+  padding: 0px 5px;
+}
+
+#mapid {
+  height: 400px;
+  width: 100%;
+}
